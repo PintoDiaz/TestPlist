@@ -4,7 +4,6 @@ public struct UserPrefs {
     var text = "Hello, World!"
 
     public init() {
-        getProperties()
     }
 
     public func getProperties() {
