@@ -1,6 +1,6 @@
 import UIKit
 
-struct UserPrefs {
+public struct UserPrefs {
     var text = "Hello, World!"
 
     public func getProperties() {
