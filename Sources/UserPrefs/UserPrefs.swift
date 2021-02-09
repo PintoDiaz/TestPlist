@@ -12,7 +12,7 @@ public struct UserPrefs {
     }
 
     public func getPropertiesFromHelloMello() {
-        let properties = UserDefaults(suiteName: "hellomello")!.dictionaryRepresentation().values
-        print(properties)
+        let properties = UserDefaults(suiteName: "hellomello")!.dictionaryRepresentation()
+        dump(properties)
     }
 }
